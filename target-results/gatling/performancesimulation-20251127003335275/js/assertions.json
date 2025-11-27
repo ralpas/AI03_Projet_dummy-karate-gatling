@@ -1,0 +1,10 @@
+{
+  "simulation": "mock.PerformanceSimulation",
+  "simulationId": "performancesimulation-20251127003335275",
+  "start": 1764203615666,
+  "description": "",
+  "scenarios": ["Get Users Load Test"],
+  "assertions": [
+
+  ]
+}

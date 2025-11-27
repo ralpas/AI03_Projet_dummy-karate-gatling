@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"mock\/tests-base[1:6]","start":1764204136372,"end":1764204136741,"title":"mock\/tests-base[1:6] 00:42:16.372-00:42:16.741 JSON Structure Validation"},{"id":2,"group":1,"content":"mock\/tests-base[2.1:32]","start":1764204136753,"end":1764204136765,"title":"mock\/tests-base[2.1:32] 00:42:16.753-00:42:16.765"},{"id":3,"group":1,"content":"mock\/tests-base[2.2:33]","start":1764204136772,"end":1764204136782,"title":"mock\/tests-base[2.2:33] 00:42:16.772-00:42:16.782"},{"id":4,"group":1,"content":"mock\/tests-base[2.3:34]","start":1764204136789,"end":1764204136799,"title":"mock\/tests-base[2.3:34] 00:42:16.789-00:42:16.799"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

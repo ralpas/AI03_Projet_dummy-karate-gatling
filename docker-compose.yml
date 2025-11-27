@@ -1,0 +1,36 @@
+services:
+  # Service 1 : L'API Mock
+  api:
+    build: ./mock-api
+    container_name: dummy-api
+    ports:
+      - "3000:3000"
+    networks:
+      - karate-net
+    # On désactive les volumes pour forcer l'usage de l'image construite
+    # volumes:
+    #   - ./mock-api/db.json:/app/db.json
+
+  # Service 2 : Le Runner de Tests
+  gatling-runner:
+    build: ./perf-tests
+    container_name: karate-tests
+    depends_on:
+      - api
+    networks:
+      - karate-net
+    environment:
+      - KARATE_ENV=dev
+    volumes:
+      # CRITIQUE : Pour voir votre code changer en temps réel
+      - ./perf-tests/src:/app/src
+      - ./perf-tests/pom.xml:/app/pom.xml
+      - ./target-results:/app/target
+    
+    # --- CHANGEMENT ICI ---
+    # Au lieu de lancer le test et quitter, on demande au conteneur d'attendre à l'infini.
+    command: tail -f /dev/null
+
+# C'est cette partie qui manquait probablement :
+networks:
+  karate-net:

@@ -1,0 +1,101 @@
+RUN	mock.PerformanceSimulation	performancesimulation	1764190014661	 	3.9.5
+USER	DummyJson Clone Load Test	START	1764190015050
+USER	DummyJson Clone Load Test	START	1764190015050
+USER	DummyJson Clone Load Test	START	1764190015110
+USER	DummyJson Clone Load Test	START	1764190015307
+USER	DummyJson Clone Load Test	START	1764190015507
+USER	DummyJson Clone Load Test	START	1764190015710
+REQUEST		GET /products	1764190015603	1764190015768	KO	mock/products.feature:10 method get
+REQUEST		GET /products	1764190015603	1764190015768	KO	mock/products.feature:10 method get
+REQUEST		GET /products	1764190015603	1764190015768	KO	mock/products.feature:10 method get
+REQUEST		GET /products	1764190015603	1764190015768	KO	mock/products.feature:10 method get
+REQUEST		GET /products	1764190015603	1764190015768	KO	mock/products.feature:10 method get
+REQUEST		GET /products	1764190015724	1764190015768	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190015832	1764190015837	KO	mock/products.feature:17 method post
+REQUEST		POST /products	1764190015833	1764190015839	KO	mock/products.feature:17 method post
+REQUEST		POST /products	1764190015832	1764190015838	KO	mock/products.feature:17 method post
+REQUEST		POST /products	1764190015833	1764190015841	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190015841
+USER	DummyJson Clone Load Test	END	1764190015841
+REQUEST		POST /products	1764190015833	1764190015839	KO	mock/products.feature:17 method post
+REQUEST		POST /products	1764190015832	1764190015840	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190015842
+USER	DummyJson Clone Load Test	END	1764190015842
+USER	DummyJson Clone Load Test	END	1764190015843
+USER	DummyJson Clone Load Test	END	1764190015844
+USER	DummyJson Clone Load Test	START	1764190015914
+REQUEST		GET /products	1764190015920	1764190015921	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190015928	1764190015929	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190015934
+USER	DummyJson Clone Load Test	START	1764190016116
+REQUEST		GET /products	1764190016123	1764190016124	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190016129	1764190016130	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190016132
+USER	DummyJson Clone Load Test	START	1764190016318
+REQUEST		GET /products	1764190016327	1764190016329	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190016336	1764190016337	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190016339
+USER	DummyJson Clone Load Test	START	1764190016513
+REQUEST		GET /products	1764190016517	1764190016518	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190016522	1764190016522	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190016523
+USER	DummyJson Clone Load Test	START	1764190016720
+REQUEST		GET /products	1764190016727	1764190016728	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190016735	1764190016737	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190016737
+USER	DummyJson Clone Load Test	START	1764190016903
+REQUEST		GET /products	1764190016912	1764190016913	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190016919	1764190016920	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190016921
+USER	DummyJson Clone Load Test	START	1764190017108
+REQUEST		GET /products	1764190017119	1764190017121	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190017125	1764190017126	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190017127
+USER	DummyJson Clone Load Test	START	1764190017304
+REQUEST		GET /products	1764190017311	1764190017313	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190017318	1764190017319	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190017320
+USER	DummyJson Clone Load Test	START	1764190017508
+REQUEST		GET /products	1764190017516	1764190017517	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190017522	1764190017522	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190017523
+USER	DummyJson Clone Load Test	START	1764190017711
+REQUEST		GET /products	1764190017718	1764190017720	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190017727	1764190017728	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190017730
+USER	DummyJson Clone Load Test	START	1764190017902
+REQUEST		GET /products	1764190017910	1764190017911	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190017919	1764190017920	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190017921
+USER	DummyJson Clone Load Test	START	1764190018105
+REQUEST		GET /products	1764190018111	1764190018113	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190018121	1764190018121	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190018122
+USER	DummyJson Clone Load Test	START	1764190018306
+REQUEST		GET /products	1764190018313	1764190018315	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190018320	1764190018321	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190018322
+USER	DummyJson Clone Load Test	START	1764190018503
+REQUEST		GET /products	1764190018509	1764190018511	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190018518	1764190018518	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190018519
+USER	DummyJson Clone Load Test	START	1764190018706
+REQUEST		GET /products	1764190018714	1764190018716	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190018722	1764190018723	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190018724
+USER	DummyJson Clone Load Test	START	1764190018904
+REQUEST		GET /products	1764190018910	1764190018912	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190018920	1764190018921	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190018922
+USER	DummyJson Clone Load Test	START	1764190019105
+REQUEST		GET /products	1764190019111	1764190019113	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190019121	1764190019122	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190019123
+USER	DummyJson Clone Load Test	START	1764190019303
+REQUEST		GET /products	1764190019309	1764190019311	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190019318	1764190019319	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190019321
+USER	DummyJson Clone Load Test	START	1764190019504
+REQUEST		GET /products	1764190019511	1764190019513	KO	mock/products.feature:10 method get
+REQUEST		POST /products	1764190019522	1764190019523	KO	mock/products.feature:17 method post
+USER	DummyJson Clone Load Test	END	1764190019524

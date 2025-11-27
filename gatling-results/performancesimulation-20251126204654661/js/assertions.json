@@ -1,0 +1,10 @@
+{
+  "simulation": "mock.PerformanceSimulation",
+  "simulationId": "performancesimulation-20251126204654661",
+  "start": 1764190015050,
+  "description": "",
+  "scenarios": ["DummyJson Clone Load Test"],
+  "assertions": [
+
+  ]
+}
