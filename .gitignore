@@ -1,0 +1,17 @@
+# Ignorer les fichiers systèmes Mac
+.DS_Store
+
+# Ignorer les dépendances Node.js (API)
+node_modules/
+npm-debug.log
+
+# Ignorer les compilations Java/Maven (Karate/Gatling)
+target/
+*.class
+
+# Ignorer les rapports de tests générés
+gatling-results/
+target-results/
+
+# Ignorer les fichiers logs
+*.log
