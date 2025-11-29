@@ -1,6 +1,6 @@
 # Projet Tests Automatisés (Karate & Gatling)
 
-Ce projet contient l'environnement de tests fonctionnels (Karate) et de performance (Gatling), dockerisé et compatible Windows/Mac.
+Ce projet contient l'environnement de tests fonctionnels (Karate) et de performance (Gatling), dockerisé et compatible Windows sous VSCode.
 
 ## Installation (Important sur Windows)
 
