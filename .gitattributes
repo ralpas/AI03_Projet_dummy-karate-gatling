@@ -1,0 +1,3 @@
+# Force Git à utiliser des fins de ligne LF (Linux) pour tous les fichiers texte
+# C'est la configuration idéale pour Docker sur Windows
+* text=auto eol=lf
