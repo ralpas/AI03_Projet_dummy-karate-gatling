@@ -24,8 +24,12 @@ Ces commandes incluent l'opérateur `--%` pour éviter les erreurs de syntaxe Po
 
 ### 1. Lancer les tests KARATE (Fonctionnels)
 
-docker exec -it karate-tests --% mvn test -Dtest=mock.TestRunner -Dkarate.options="classpath:mock/products-read.feature" -DbaseUrl=http://api:3000
+    ```powershell
+    docker exec -it karate-tests --% mvn test -Dtest=mock.TestRunner -Dkarate.options="classpath:mock/products-read.feature" -DbaseUrl=http://api:3000
+    ```
 
 ### 2. Lancer les tests Gatling 
 
-docker exec -it karate-tests --% mvn gatling:test -Dgatling.simulationClass=mock.PerformanceSimulation -DbaseUrl=http://api:3000
+    ```powershell
+    docker exec -it karate-tests --% mvn gatling:test -Dgatling.simulationClass=mock.PerformanceSimulation -DbaseUrl=http://api:3000
+    ```
